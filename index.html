@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Filtro de Informação</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      textarea {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+      }
+      button {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Filtro de Informação</h1>
+    <textarea id="inputText" placeholder="Digite o texto aqui..."></textarea>
+    <button onclick="applyFilters()">Aplicar Filtros</button>
+    <h2>Resultado:</h2>
+    <div id="output"></div>
+
+    <script>
+      function applyFilters() {
+        const inputText = document.getElementById('inputText').value
+
+        // Aplica o primeiro filtro: remover tudo que não seja letra
+        const filteredText1 = inputText.replace(/[^a-zA-Z ]/g, '')
+
+        // Aplica o segundo filtro: deixar todas as palavras em minúsculas
+        const filteredText2 = filteredText1.toLowerCase()
+
+        // Aplica o terceiro filtro: eliminar palavras repetidas
+        const wordArray = filteredText2.split(/\s+/) // Divide o texto em palavras
+        const uniqueWords = [...new Set(wordArray)] // Elimina palavras repetidas
+
+        // Aplica o quarto filtro: converter as palavras em um array
+        const filteredText3 = JSON.stringify(uniqueWords)
+
+        // Mostra o resultado na página
+        const outputDiv = document.getElementById('output')
+        outputDiv.innerHTML = `<p>Texto sem caracteres não alfabéticos: ${filteredText1}</p>
+                             <p>Texto em minúsculas: ${filteredText2}</p>
+                             <p>Texto sem palavras repetidas: ${filteredText3}</p>`
+
+        // Imprime o array no console
+        console.log(uniqueWords)
+      }
+    </script>
+  </body>
+</html>
