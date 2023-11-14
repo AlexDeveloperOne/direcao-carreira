@@ -31,4 +31,6 @@
 
 - [Curso Angular 8 do básico ao avanCado](https://www.youtube.com/playlist?list=PL4iwH9RF8xHnMnKewOLjDvTHzTmyxJNHF)
 
-- []()
+- [Curso Angular 9](https://www.youtube.com/playlist?list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3)
+
+- [Construindo Progressive Web App's (PWA's) com Angular](https://www.youtube.com/playlist?list=PLn3kOoc0oI2cs0KHVq8FPODa8uWdkZJBo)
