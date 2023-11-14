@@ -1,7 +1,16 @@
+
 # Estudo baseado em projetos
 
 
-## [From Télos Conecta](https://www.youtube.com/@telosconecta)
+
+
+<details markdown='1'><summary>
+
+###  [From Télos Conecta](https://www.youtube.com/@telosconecta)
+ 
+</summary>
+
+
 
 - [OnCode #1](https://www.youtube.com/watch?v=2wXNMf1xGFk)
 - [OnCode #2](https://www.youtube.com/watch?v=krMpowugxIE)
@@ -9,7 +18,16 @@
 - [OnCode #4](https://www.youtube.com/watch?v=awShnbz0JOE)
 
 
-## [Outros Projetos](https://www.youtube.com/@telosconecta)
+
+
+
+</details>
+
+<details markdown='1'><summary>
+
+###  Outros
+ 
+</summary>
 
 - [RESOLVENDO DESAFIO FRONTEND - PROJETO ANGULAR COMPLETO](https://www.youtube.com/watch?v=ozZXMkp8MnQ)
 
@@ -34,3 +52,5 @@
 - [Curso Angular 9](https://www.youtube.com/playlist?list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3)
 
 - [Construindo Progressive Web App's (PWA's) com Angular](https://www.youtube.com/playlist?list=PLn3kOoc0oI2cs0KHVq8FPODa8uWdkZJBo)
+
+</details>
