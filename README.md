@@ -17,11 +17,16 @@
 - [OnCode #3](https://www.youtube.com/watch?v=XRJJyzIjmAw)
 - [OnCode #4](https://www.youtube.com/watch?v=awShnbz0JOE)
 
-
-
-
-
 </details>
+
+
+
+[Como fazer um curriculo ganhador para entrevista na área de TI](https://www.youtube.com/watch?v=q2gWYfghRYc)
+
+[Template Angular](https://www.canva.com/design/DAFznpJKa2I/K_rbL2B7yt3a2W5nagxveA/view?utm_content=DAFznpJKa2I&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
+
+
+
 
 <details markdown='1'><summary>
 
